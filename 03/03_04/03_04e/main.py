@@ -8,7 +8,9 @@ user_preferences = {
 
 
 def update_preferences(user_pref):
-    return {}
+    keys = list(user_pref.keys())
+    return {keys[0],keys[1],keys[3]}
 
 
+print(user_preferences)
 print(update_preferences(user_preferences))
