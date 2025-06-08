@@ -7,3 +7,4 @@ history_stack.append("https://stackoverflow.com")
 
 print(history_stack[-1])
 print(history_stack.pop())
+print(history_stack[-1])
